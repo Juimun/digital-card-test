@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Auto-generated GraphQL schema
+src/schema.gql
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Tests / coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Prisma
+prisma/*.db
+prisma/dev.db*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Optional: keep lockfile tracked, but ignore npm cache dirs
+.npm/

@@ -1,0 +1,18 @@
+# Normalize line endings for everyone
+* text=auto eol=lf
+
+# Explicit text types
+*.ts text
+*.js text
+*.json text
+*.md text
+*.prisma text
+*.sql text
+*.sh text eol=lf
+
+# Don't let GitHub count generated/vendor files in language stats
+package-lock.json linguist-generated=true
+prisma/migrations/** linguist-generated=true
+
+# Treat lockfile diffs as generated
+package-lock.json -diff
