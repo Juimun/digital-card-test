@@ -16,7 +16,13 @@
 - GraphQL;
 - Docker.
 
-## Запуск через Docker
+## Запуск
+
+### Render
+
+[Предпросмотр]https://digital-card-test.onrender.com
+
+### Docker
 
 1. Скопируйте файл окружения:
 
